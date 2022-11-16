@@ -30,6 +30,11 @@
 	<title>UntreeStore Free HTML Template by Untree.co</title>
 </head>
 
+
+
+
+
+
 <body>
 
 	<div class="search-form" id="search-form">
@@ -71,57 +76,51 @@
 
 					<!--  메인 헤더 중앙 카테고리  -->
 					<ul class="js-clone-nav pl-0 d-none d-lg-inline-block site-menu">
-						<!-- Vintagure 카테고리 -->
+					
+						<!-- Vintagure 카테고리  -->
+							<!-- 맨위 메인이 되는 Vintagere,PAGES 같은 메인카테고리 누르면 맨처음 페이지 나오게합니다!-->
 						<li class="has-children">
-							<a href="shop.do">Vintagere</a>
+							<a href="mainOuter.do">Vintagere</a>
 							<ul class="dropdown">
-								<li><a href="main/outer.do">OUTER</a></li>
-								<li><a href="#">TOP</a></li>
-								<li><a href="#">BOTTOM</a></li>
-								<li><a href="#">SHOES</a></li>
-								<li><a href="#">ACC</a></li>
+								<li><a href="mainOuter.do">OUTER</a></li>
+								<li><a href="mainTop.do">TOP</a></li>
+								<li><a href="mainBottom.do">BOTTOM</a></li>
+								<li><a href="mainShoes.do">SHOES</a></li>
+								<li><a href="mainAcc.do">ACC</a></li>
 							</ul>
 						</li>
+						
 						<!-- PAGES 카테고리 -->
 						<li class="has-children">
-							<a href="shop.do">PAGES</a>
+							<a href="qnA.do">PAGES</a>
 							<ul class="dropdown">
-								<li><a href="#">Q & A</a></li>
-								<li><a href="#">STYLE REVIEW</a></li>
-								<li><a href="#">자유 게시판</a></li>
+								<li><a href="qnA.do">Q & A</a></li>
+								<li><a href="styleReview.do">STYLE REVIEW</a></li>
+								<li><a href="free.do">자유 게시판</a></li>
 							</ul>
 						</li>
-						<!-- Pages 카테고리 -->
+						
+						<!-- MEN 카테고리 -->
 						<li class="has-children">
-							<a href="shop.do">MEN</a>
+							<a href="manOuter.do">MAN</a>
 							<ul class="dropdown">
-								<li><a href="#">OUTER</a></li>
-								<li><a href="#">TOP</a></li>
-								<li><a href="#">BOTTOM</a></li>
-								<li><a href="#">SHOES</a></li>
-								<li><a href="#">ACC</a></li>
-								<!-- Pages 카테고리 안 Menu Two 세부카테고리 -->
-								<li class="has-children">
-									<a href="#">Menu Two</a>
-									<ul class="dropdown">
-										<li><a href="#">T-Shirt</a></li>
-										<li><a href="#">Underware</a></li>
-										<li><a href="#">Clothing</a></li>
-										<li><a href="#">Watches</a></li>
-										<li><a href="#">Shoes</a></li>
-
-									</ul>
-								</li>
+								<li><a href="manOuter.do">OUTER</a></li>
+								<li><a href="manTop.do">TOP</a></li>
+								<li><a href="manBottom.do">BOTTOM</a></li>
+								<li><a href="manShoes.do">SHOES</a></li>
+								<li><a href="manAcc.do">ACC</a></li>
 							</ul>
 						</li>
+						
+						<!-- WOMEN 카테고리 -->
 						<li class="has-children">
-							<a href="shop.do">WOMEN</a>
+							<a href="womanOuter.do">WOMAN</a>
 							<ul class="dropdown">
-								<li><a href="#">OUTER</a></li>
-								<li><a href="#">TOP</a></li>
-								<li><a href="#">BOTTOM</a></li>
-								<li><a href="#">SHOES</a></li>
-								<li><a href="#">ACC</a></li>
+								<li><a href="womanOuter.do">OUTER</a></li>
+								<li><a href="womanTop.do">TOP</a></li>
+								<li><a href="womanBottom.do">BOTTOM</a></li>
+								<li><a href="womanShoes.do">SHOES</a></li>
+								<li><a href="womanAcc.do">ACC</a></li>
 							</ul>
 						</li>		
 					</ul>
@@ -152,6 +151,8 @@
 						</a>
 
 					</div>
+					
+					
 
 					<a href="#" class="burger ml-auto float-right site-menu-toggle js-menu-toggle d-inline-block d-lg-none" data-toggle="collapse" data-target="#main-navbar">
 						<span></span>
@@ -174,8 +175,8 @@
 							<h1 class="mb-4 heading" data-aos="fade-up" data-aos-delay="100">무슨이벤트인가 <a href="https://untree.co">색포인트</a></h1>
 							<div class="mb-5 text-white desc mx-auto" data-aos="fade-up" data-aos-delay="200">
 							</div>
-
-							<p class="mb-0" data-aos="fade-up" data-aos-delay="300"><a href="#" class="btn btn-outline-black">눌러!</a></p>
+							<!-- eventSale1.do -->
+							<p class="mb-0" data-aos="fade-up" data-aos-delay="300"><a href="eventSale1.do" class="btn btn-outline-black">눌러!</a></p>
 
 						</div>
 					</div>
@@ -193,8 +194,8 @@
 							<h1 class="mb-4 heading" data-aos="fade-up" data-aos-delay="100">무슨이벤트인가 <a href="https://untree.co">색포인트</a></h1>
 							<div class="mb-5 text-white desc mx-auto" data-aos="fade-up" data-aos-delay="200">
 							</div>
-
-							<p class="mb-0" data-aos="fade-up" data-aos-delay="300"><a href="#" class="btn btn-outline-black">눌러!</a></p>
+									<!-- eventSale2.do -->
+							<p class="mb-0" data-aos="fade-up" data-aos-delay="300"><a href="eventSale2.do" class="btn btn-outline-black">눌러!</a></p>
 
 						</div>
 					</div>
@@ -217,13 +218,14 @@
 					<span class="subtitle">MD추천상품이야</span>
 					<h2 class="title mb-4"><a href="#">겨울 추천!</a></h2>
 					<p class="mb-5">간단한 이번달 추천상품 이유설명.</p>
-					<a href="#" class="btn btn-black">눌러!</a>
+					<a href="mdRecommend.do" class="btn btn-black">눌러!</a>
 				</div>
 			</div> <!-- /.deal-hero -->
 
 		</div>
 	</div>
 <!--  MD 종료 -->
+
 <!--  NEW 상품 -->
 	<div class="untree_co-section">
 		<div class="container">
@@ -236,11 +238,14 @@
 							<div class="label new top-right">
 								<div class='content'>New 라벨</div>
 							</div>
-
 							
+							<!-- 신규상품 클릭시 -->
+							<a href="newItemPage.do">
 							<img src="resources/images/products/jacket-1-min.jpg" alt="Image" class="img-fluid">
+							</a>
+							
 						</a>
-						<h3 class="title"><a href="#">상품이름</a></h3>
+						<h3 class="title"><a href="newItemPage.do">상품이름</a></h3>
 						<div class="price">
 							<span>상품가격</span>
 						</div>
@@ -249,6 +254,7 @@
 				<div class="col-6 col-sm-6 col-md-6 mb-4 col-lg-4">
 					<div class="product-item">
 						<a href="shop-single.jsp" class="product-img">
+						
 							<div class="label new top-right">
 								<div class='content'>New 라벨</div>
 							</div>
@@ -256,9 +262,14 @@
 							<div class="label sale top-right second">
 								<div class='content'>Sale 라벨</div>
 							</div>
-							<img src="resources/images/products/bottoms-1-min.jpg" alt="Image" class="img-fluid">
+							
+						<!-- 신규상품 클릭시 -->
+							<a href="newItemPage.do">
+							<img src="resources/images/products/jacket-1-min.jpg" alt="Image" class="img-fluid">
+							</a>
+							
 						</a>
-						<h3 class="title"><a href="#">상품이름</a></h3>
+						<h3 class="title"><a href="newItemPage.do">상품이름</a></h3>
 						<div class="price">
 							<del>세일전가격</del> &mdash; <span>세일후가격</span>
 						</div>
@@ -267,9 +278,14 @@
 				<div class="col-6 col-sm-6 col-md-6 mb-4 col-lg-4">
 					<div class="product-item">
 						<a href="shop-single.jsp" class="product-img">
-							<img src="resources/images/products/shoe-1-min.jpg" alt="Image" class="img-fluid">
+						
+							<!-- 신규상품 클릭시 -->
+							<a href="newItemPage.do">
+							<img src="resources/images/products/jacket-1-min.jpg" alt="Image" class="img-fluid">
+							</a>
+							
 						</a>
-						<h3 class="title"><a href="#">상품이름</a></h3>
+						<h3 class="title"><a href="newItemPage.do">상품이름</a></h3>
 						<div class="price">
 							<span>가격</span>
 						</div>
@@ -280,9 +296,14 @@
 
 					<div class="product-item">
 						<a href="shop-single.jsp" class="product-img">
-							<img src="resources/images/products/sock-1-min.jpg" alt="Image" class="img-fluid">
+						
+							<!-- 신규상품 클릭시 -->
+							<a href="newItemPage.do">
+							<img src="resources/images/products/jacket-1-min.jpg" alt="Image" class="img-fluid">
+							</a>
+							
 						</a>
-						<h3 class="title"><a href="#">상품이름</a></h3>
+						<h3 class="title"><a href="newItemPage.do">상품이름</a></h3>
 						<div class="price">
 							<span>가격</span>
 						</div>
@@ -296,9 +317,13 @@
 							<div class="label sale top-right">
 								<div class='content'>Sale 라벨</div>
 							</div>
-							<img src="resources/images/products/sweater-2-min.jpg" alt="Image" class="img-fluid">
-						</a>
-						<h3 class="title"><a href="#">상품이름</a></h3>
+							
+								<!-- 신규상품 클릭시 -->
+							<a href="newItemPage.do">
+							<img src="resources/images/products/jacket-1-min.jpg" alt="Image" class="img-fluid">
+							</a>
+							
+						<h3 class="title"><a href="newItemPage.do">상품이름</a></h3>
 						<div class="price">
 							<del>세일전 가격</del> &mdash; <span>세일후 가격</span>
 						</div>
@@ -313,9 +338,14 @@
 							<div class="label sale top-right">
 								<div class='content'>Sale 라벨</div>
 							</div>
-							<img src="resources/images/products/watch-1-min.jpg" alt="Image" class="img-fluid">
+					
+						<!-- 신규상품 클릭시 -->
+							<a href="newItemPage.do">
+							<img src="resources/images/products/jacket-1-min.jpg" alt="Image" class="img-fluid">
+							</a>
+							
 						</a>
-						<h3 class="title"><a href="#">상품이름</a></h3>
+						<h3 class="title"><a href="newItemPage.do">상품이름</a></h3>
 						<div class="price">
 							<del>세일전가격</del> &mdash; <span>세일후 가격</span>
 						</div>
@@ -327,6 +357,8 @@
 		</div>
 	</div> <!-- /.untree_co-section -->
 <!--  new 상품종료 -->
+
+
 <!--  스타일샷 게시판 -->
 	<div class="container">
 
@@ -336,14 +368,15 @@
 				<span class="subtitle">빈티지의류 착샷을 올려주세요</span>
 				<h2 class="title mb-4"><a href="#">스타일샷 게시판</a></h2>
 				<p class="mb-5">여러분들의 개성~~~~~ 빈티지의류를 뽐내보자!!.</p>
-				<a href="#" class="btn btn-black">STYLE REVIEW</a>
+				<a href="styleReview.do" class="btn btn-black">STYLE REVIEW</a>
 			</div>
 		</div> <!-- /.deal-hero -->
 
 	</div>
 <!--  스타일샷 게시판 종료 -->
-<!-- 베스트 상품 -->
 
+
+<!-- 베스트 상품 -->
 	<div class="untree_co-section">
 		<div class="container">
 			<div class="row mb-5 align-items-center">
@@ -377,9 +410,13 @@
 							<div class="label sale top-right">
 								<div class='content'>Sale 라벨</div>
 							</div>
+							<!-- 베스트상품숍으로 넘어가게! -->
+							<a href="bestItemPage.do">
 							<img src="resources/images/products/watch-1-min.jpg" alt="Image" class="img-fluid">
+							</a>
+							
 						</a>
-						<h3 class="title"><a href="#">상품 이름</a></h3>
+						<h3 class="title"><a href="bestItemPage.do">상품 이름</a></h3>
 						<div class="price">
 							<del>세일전 가격</del> &mdash; <span>세일후가격</span>
 						</div>
@@ -395,10 +432,14 @@
 								<div class='content'>New 라벨</div>
 							</div>
 
+							<!-- 베스트상품숍으로 넘어가게! -->
+							<a href="bestItemPage.do">
+							<img src="resources/images/products/watch-1-min.jpg" alt="Image" class="img-fluid">
+							</a>
 							
-							<img src="resources/images/products/jacket-1-min.jpg" alt="Image" class="img-fluid">
+							
 						</a>
-						<h3 class="title"><a href="#">상품이름</a></h3>
+						<h3 class="title"><a href="bestItemPage.do">상품이름</a></h3>
 						<div class="price">
 							<span>가격</span>
 						</div>
@@ -416,9 +457,14 @@
 							<div class="label sale top-right second">
 								<div class='content'>Sale 라벨</div>
 							</div>
-							<img src="resources/images/products/bottoms-1-min.jpg" alt="Image" class="img-fluid">
+							
+							<!-- 베스트상품숍으로 넘어가게! -->
+							<a href="bestItemPage.do">
+							<img src="resources/images/products/watch-1-min.jpg" alt="Image" class="img-fluid">
+							</a>
+							
 						</a>
-						<h3 class="title"><a href="#">상품 이름</a></h3>
+						<h3 class="title"><a href="bestItemPage.do">상품 이름</a></h3>
 						<div class="price">
 							<del>세일전가격</del> &mdash; <span>세일후 가격</span>
 						</div>
@@ -428,9 +474,14 @@
 				<div class="item">
 					<div class="product-item">
 						<a href="shop-single.jsp" class="product-img">
-							<img src="resources/images/products/sock-1-min.jpg" alt="Image" class="img-fluid">
+						
+							<!-- 베스트상품숍으로 넘어가게! -->
+							<a href="bestItemPage.do">
+							<img src="resources/images/products/watch-1-min.jpg" alt="Image" class="img-fluid">
+							</a>
+							
 						</a>
-						<h3 class="title"><a href="#">상품이름</a></h3>
+						<h3 class="title"><a href="bestItemPage.do">상품이름</a></h3>
 						<div class="price">
 							<span>가격</span>
 						</div>
@@ -457,56 +508,11 @@
 						<p>우리회사 소개 정보 등등등!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 						!!!!!!!!!!!!!!!!!!! 고객센터 시간, 번호, 회사주소, 회사연락처 등등등!!!!!!!!!!!!!!!!!</p>
 					</div>
-					<!-- <div class="widget">
-						<h3>Join our mailing list and receive exclusives</h3>
-						<form action="#" class="subscribe">
-							<div class="d-flex">
-								<input type="email" class="form-control" placeholder="Email address">
-								<input type="submit" class="btn btn-black" value="Subscribe">
-							</div>
-						</form>
 
-						
-					</div> -->
 				</div>
 				
 				
-<!-- 				<div class="col-lg-2">
-					<div class="widget">
-						<h3>Help</h3> 
-						<ul class="list-unstyled">
-							<li><a href="#">Contact us</a></li>
-							<li><a href="#">Account</a></li>
-							<li><a href="#">Shipping</a></li>
-							<li><a href="#">Returns</a></li>
-							<li><a href="#">FAQ</a></li>   
-						</ul>
-					</div>
-				</div>
-				<div class="col-lg-2">
-					<div class="widget">
-						<h3>About</h3>
-						<ul class="list-unstyled">
-							<li><a href="#">About us</a></li>
-							<li><a href="#">Press</a></li>
-							<li><a href="#">Careers</a></li>
-							<li><a href="#">Team</a></li>
-							<li><a href="#">FAQ</a></li>   
-						</ul>
-					</div>
-				</div>
-				<div class="col-lg-2">
-					<div class="widget">
-						<h3>Shop</h3>
-						<ul class="list-unstyled">
-							<li><a href="#">Store</a></li>
-							<li><a href="#">Gift Cards</a></li>
-							<li><a href="#">Student Discount</a></li>
-						</ul>
-					</div>
-				</div>
-				
-			</div> -->
+
 
 
 			<div class="row mt-5">

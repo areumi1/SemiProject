@@ -3,6 +3,7 @@
 <!DOCTYPE html>
 <html lang="en">
 
+	<!-- eventSale1 은 크리스마스 할인상품 입니다!! -->
  <% String pjName = "/SemiProject"; %>
 
 <head>
@@ -166,7 +167,7 @@
     <div class="container">
       <div class="row align-items-end text-center">
         <div class="col-lg-7 mx-auto">
-          <h1>Shop</h1>  
+          <h1>Christmas Event</h1>  
           <p class="mb-4"><a href="index.jsp">Home</a> / <strong>Shop</strong></p>        
         </div>
       </div>
@@ -205,7 +206,7 @@
             <li><a href="#">Men <span>5,381</span></a></li>
             <li><a href="#">Women <span>7,119</span></a></li>
             <li><a href="#">Jewelries <span>1,012</span></a></li>
-            <li><a href="#">Accessories <span>919</span></a></li>
+            <li><a href="#">Accessories <span>919></span></a></li>
             <li><a href="#">Shoes <span>4,344</span></a></li>
             <li><a href="#">Clothing <span>7,919</span></a></li>
           </ul>

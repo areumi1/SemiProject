@@ -3,6 +3,7 @@
 <!DOCTYPE html>
 <html lang="en">
 
+	<!-- eventSale2 는 다가올 신년 이벤트입니다!!!! -->
  <% String pjName = "/SemiProject"; %>
 
 <head>
@@ -166,7 +167,7 @@
     <div class="container">
       <div class="row align-items-end text-center">
         <div class="col-lg-7 mx-auto">
-          <h1>Shop</h1>  
+          <h1>Happy NewYear</h1>  
           <p class="mb-4"><a href="index.jsp">Home</a> / <strong>Shop</strong></p>        
         </div>
       </div>
